@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Transaction Page </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="topnav"> 
+            <p id="top-header"><i>Nadhila Catering</i></p>      
+            <a href="upload.html" action="upload.html">Add Photo</a>
+            <a class="active" href= "#transaction">Transaction</a>
+            <a href="main.html" action="main.html">Home</a> 
+        </div>
+
+        <h3>Hitung Transaksi</h3>
+        <form method="post" action="transaction.php">
+            <label> Pembeli &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type="text" name="nama"><br><br>
+            <label> Status Pembeli </label><select name="status">
+                <option>Member</option>
+                <option>Non-Member</option> </select>
+            <br><br>
+            <label>Menu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><select name="menu">
+                <option>Paket 1</option>
+                <option>Paket 2</option>
+                <option>Paket 3</option> </select>
+            <br><br>
+            <label> Jumlah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> <input type="number" name="jumlah"><br><br>
+            <input type="submit" name="HITUNG" value="HITUNG">
+        </form>
+
+        <div class="fixed">
+            <footer>
+                 Based in Blitar &copy; Nadhila Catering
+            </footer>
+        </div>
+    </body>
+</html>

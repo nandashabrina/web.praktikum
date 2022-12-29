@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+
+#top-header{
+    color: black;
+    float: left;
+    text-align: center;
+    padding-left: 16px;
+    font-size: 20px;
+    text-decoration: solid;
+}
+
+.topnav{
+    background-color: #78aed3;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: yellow;
+    color: black;
+}
+
+.banner-image img{
+    align-items: center;
+    padding-left: 450px;
+}
+
+div.fixed{
+    padding: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+    float: inline-end;
+    background-color: #78aed3;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    width: auto;
+}
